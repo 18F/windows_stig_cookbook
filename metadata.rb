@@ -1,0 +1,7 @@
+name 'win_stig'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures windows_stig_cookbook'
+long_description 'Installs/Configures windows_stig_cookbook'
+version '0.1.0'
