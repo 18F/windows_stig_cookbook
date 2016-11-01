@@ -18,7 +18,7 @@ suites:
     run_list:
       - recipe[win_stig::default]
     verifier:
-#      inspec_tests:
+      inspec_tests:
 #        - test/integration/default/inspec
 #        - /Users/peterburkholder/Projects/misc/inspec-stigs/win2012r2member
     attributes:
