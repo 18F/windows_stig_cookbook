@@ -4,12 +4,12 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
-registry_key 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa' do
+registry_key 'HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\Terminal Services' do
   values [{
-    :name => 'LimitBlankPasswordUse',
+    :name => 'fEncryptRPCTraffic',
     :type => :dword,
     :data => 1
   }]
 #  recursive true
-  action :nothing
+  action :create
 end
